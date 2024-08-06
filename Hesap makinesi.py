@@ -1,5 +1,5 @@
-devamke = 'e'
-while devamke == 'e':
+devam = 'e'
+while devam == 'e':
     try:
         sayi1 = int(input("İlk sayıyı/tabanı giriniz: "))
         sayi2 = int(input("İkinci sayıyı/üssü giriniz:"))
@@ -19,7 +19,7 @@ while devamke == 'e':
             print(f"%d ^ %d = %d"%(sayi1, sayi2, sayi1**sayi2))
         else:
             print("Hatalı giriş yaptınız")
-        devamke = input("Başka işlem gerçekleştirmek için e, bitirmek için herhangi bir şey yazınız: ")      
+        devam = input("Başka işlem gerçekleştirmek için e, bitirmek için herhangi bir şey yazınız: ")      
     except(ValueError):
         print("Hesap makineleri işlemleri için sayılar kullanırlar.")
 print("biti:)")
